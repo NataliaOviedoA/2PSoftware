@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1559010608510,
+  "timestamp": 1559012210141,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -35,7 +35,20 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "ReditAPI",
+      "patterns": [
+        "https:\\/\\/reddit\\.com\\/r\\/pics\\.json",
+        "https:\\/\\/reddit\\.com\\/r\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
