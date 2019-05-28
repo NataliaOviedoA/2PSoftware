@@ -7,7 +7,7 @@ import { SwUpdate } from '@angular/service-worker';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'Mi app con angular';
+  title = 'Deberia funcionar';
   constructor(private swUpdate:SwUpdate){
 
   }
