@@ -1,4 +1,4 @@
-import {AngularFireDatabase} from "angularfire2/database";
+import {AngularFireDatabase} from "firebase/database";
 import { Injectable } from '@angular/core';
 
 @Injectable()
