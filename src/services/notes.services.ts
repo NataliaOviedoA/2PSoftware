@@ -1,9 +1,10 @@
-import {AngularFireDatabase} from "firebase/database";
+
 import { Injectable } from '@angular/core';
+import { AngularFireDatabase } from '@angular/fire/database';
 
 @Injectable()
 export class NotesService {
-    constructor(public afDB:AngularFireDatabase){
+    constructor(public afDB: AngularFireDatabase){
 
     }
 
